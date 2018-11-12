@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 60em;
+    margin: 0 auto;
+    line-height: 1.4;
+
+}
+header{
+    background-color: khaki;
+}
+header h1{
+    text-align: center;
+}
+.col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.col-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
